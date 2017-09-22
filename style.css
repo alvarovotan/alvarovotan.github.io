@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	background: white;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#container {
+	max-width: 800px;
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+
+#logo {
+	background: url('avatar_av.svg') no-repeat;
+	width: 130px;
+	height: 130px;
+	background-size: contain;
+	margin: 50px auto 0px auto;
+	display: block;
+	position: relative;
+}
+
+ul.links {
+  	list-style: none;
+  	margin: 20px auto 0px auto;
+  	position: relative;
+  	width: intrinsic;
+  	text-align: center;
+}
+  
+ul.links li {
+	display: inline;
+	margin: 0px 6px 0px 6px;
+}
+  
+ul.links li a {
+	min-width: 70px;
+	height: auto;
+	color: rgba(0, 0, 0, 0);
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Montserrat', Arial, sans-serif; 	
+	font-size: 9px;
+ 	letter-spacing: 1px;
+ 	font-weight: 400;
+	text-decoration: none;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+    opacity: 0.3;
+}
+
+ul.links li a:hover {
+	opacity: 1;
+	color: #fff;
+}
+
+ul.links li:nth-child(1) a:hover {
+	color: #ea4c89;
+}
+
+ul.links li:nth-child(2) a:hover {
+	color: #1C99E6;
+}
+
+ul.links li:nth-child(3) a:hover {
+	color: #FC2A4E;
+}
+
+ul.links li:nth-child(4) a:hover {
+	color: #0076B4;
+}
+
+
+ul.links li:nth-child(5) a:hover {
+	color: #00D770;
+}
+
+ul.links li:nth-child(6) a:hover {
+	color: #00D770;
+}
+
+ul.links li a p {
+	padding-top: 4px;
+}
+
+hr {
+    display: block;
+    margin: 50px auto 0px auto;
+    border-style: solid;
+    border-width: 0.01px;
+    border-color: #c1c1c1;
+}
+
+p.title {
+	font-family: 'Spoqa Han Sans', Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: 0.3px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 10px;
+}
+
+p#t-1 {
+	color: #c1c1c1;
+}
+
+p#t-2 {
+	color: #c1c1c1;
+}
+
+p.text {
+	font-family: 'Spoqa Han Sans', Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 30px;
+	color: #5D5D5D;
+	margin-top: 30px;
+}
+
+a#contact {
+	font-family: 'Spoqa Han Sans', Arial, sans-serif;
+	font-weight: 700;
+	background: #383838;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	padding: 12px 34px 12px 34px;
+	text-decoration: none;
+	margin-top: 30px;
+	border: 4px solid #fff;
+	display: inline-block;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;	
+}
+
+a#contact:hover {
+	background: #fff;
+	color: #383838;
+}
+
+p#footer {
+	font-family: 'Spoqa Han Sans', Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 34px;
+	color: #767678;
+	margin: 15px 0px 18px 0px;
+}
+
